@@ -13,13 +13,13 @@ In simple English, whenever you add new items to a list table (consumer) inside 
 ```
 
 `````````
-$("table[summary*='CONSUMER LIST NAME']").updateFilter({
+$("table[summary*='Consumer list name']").updateFilter({
 
-  providerList: "Provider", //Provider List Name
+  providerList: "Provider list name", 
 
-  providerField: "Provider Title", //Provider List Field
+  providerField: "Provider item title", 
   
-  consumerField: "Consumer field that connects to the provider's title" //Consumer List Field
+  consumerField: "Consumer field that connects to the provider item's title"
 
 });
 
