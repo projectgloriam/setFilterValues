@@ -11,7 +11,7 @@ In simple English, whenever you add new items to a list table (consumer) inside 
 
 <script type="text/javascript" src="setFilterValues.js"></script>
 ```
-
+Place this 
 `````````
 $("table[summary*='Consumer list name']").updateFilter({
 
@@ -24,3 +24,10 @@ $("table[summary*='Consumer list name']").updateFilter({
 });
 
 `````````
+
+inside
+```
+$( document ).ready(function() {
+    //here
+});
+```
