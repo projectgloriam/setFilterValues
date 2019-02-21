@@ -13,7 +13,7 @@ In simple English, whenever you add new items to a list table (consumer) inside 
 ```
 Place this 
 `````````
-$("table[summary*='Consumer list name']").updateFilter({
+$("table[summary*='Consumer list name']").setFilterValues({
 
   providerList: "Provider list name", 
 
