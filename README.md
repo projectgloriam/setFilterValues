@@ -5,4 +5,5 @@ In simple English, whenever you add new items to a list table (consumer) inside 
 
 ## To use this plugin
 <script type="text/javascript" src="jquery.js"></script>
+
 <script type="text/javascript" src="setFilterValues.js"></script>
