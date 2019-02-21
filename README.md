@@ -9,3 +9,11 @@ In simple English, whenever you add new items to a list table (consumer) inside 
 `<script type="text/javascript" src="jquery.js"></script>` 
 
 `<script type="text/javascript" src="setFilterValues.js"></script>`
+
+`
+$("table[summary*='CONSUMER LIST NAME']").updateFilter({
+  providerList: "Provider", //Provider List Name
+  providerField: "Provider Title", //Provider List Field
+  consumerField: "Consumer field that connects to the provider's title" //Consumer List Field
+});
+`
